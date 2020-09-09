@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/carritocompras"
+            android:icon="@drawable/fono"
+            android:title="electronicos" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/flor"
+            android:title="hogar" />
+        <item
+            android:id="@+id/catrestaurant"
+            android:icon="@drawable/restaurant"
+            android:title="comida" />
+    </group>
+    <item android:title="Precios">
+        <menu>
+            <item
+                android:id="@+id/preciomin"
+                android:title="Min" />
+            <item
+                android:id="@+id/preciomax"
+                android:title="Max" />
+        </menu>
+    </item>
+</menu>
